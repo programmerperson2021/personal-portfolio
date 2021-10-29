@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto,cursive;
+}
+#navbar{
+background-color: rgb(212, 0, 71);
+display: flex;
+justify-content: flex-end;
+position: fixed;
+width: 100%;
+top: 0;
+}
+.nav>a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    font-family: inherit;
+    color: white;
+    font-weight: bold;
+}
+header{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcome-section{
+    text-align: center;
+}
+#welcome-section>h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+#welcome-section>p{
+    color: rgb(212, 0, 71);
+    font-size: 20px;
+}
+@media all and (max-width:768px) {
+    #projects{
+        color: wheat;
+    }
+}
